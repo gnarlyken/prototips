@@ -1,0 +1,1082 @@
+[
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "64 B",
+    "datu_izmers_baiti": 64,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 2.1098244,
+      "mediana_us": 2.041,
+      "std_us": 1.1679235262211949,
+      "min_us": 1.708,
+      "max_us": 104.25,
+      "p95_us": 2.458,
+      "p99_us": 2.542,
+      "caurlaidspeja_mbps": 242.67422445204446
+    },
+    "atsifresana": {
+      "videjais_us": 1.0159965,
+      "mediana_us": 0.959,
+      "std_us": 0.8014774522707422,
+      "min_us": 0.791,
+      "max_us": 68.083,
+      "p95_us": 1.167,
+      "p99_us": 1.25,
+      "caurlaidspeja_mbps": 503.9387438834681
+    },
+    "izmera_palielinajums": 1.4375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "64 B",
+    "datu_izmers_baiti": 64,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 1.7409909,
+      "mediana_us": 1.708,
+      "std_us": 0.9244561169295181,
+      "min_us": 1.542,
+      "max_us": 56.042,
+      "p95_us": 1.833,
+      "p99_us": 2.0,
+      "caurlaidspeja_mbps": 294.08539700006475
+    },
+    "atsifresana": {
+      "videjais_us": 0.8467439,
+      "mediana_us": 0.833,
+      "std_us": 0.5118805359467169,
+      "min_us": 0.708,
+      "max_us": 30.125,
+      "p95_us": 0.875,
+      "p99_us": 1.0,
+      "caurlaidspeja_mbps": 604.6692512340508
+    },
+    "izmera_palielinajums": 1.4375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "64 B",
+    "datu_izmers_baiti": 64,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 2.0481359,
+      "mediana_us": 2.0,
+      "std_us": 0.9061857977816692,
+      "min_us": 1.875,
+      "max_us": 51.292,
+      "p95_us": 2.125,
+      "p99_us": 2.375,
+      "caurlaidspeja_mbps": 249.98341174528505
+    },
+    "atsifresana": {
+      "videjais_us": 1.1691985,
+      "mediana_us": 1.125,
+      "std_us": 0.7985028374250699,
+      "min_us": 1.0,
+      "max_us": 52.75,
+      "p95_us": 1.208,
+      "p99_us": 1.375,
+      "caurlaidspeja_mbps": 437.9068224942129
+    },
+    "izmera_palielinajums": 1.4375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "64 B",
+    "datu_izmers_baiti": 64,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 11.5439431,
+      "mediana_us": 11.208,
+      "std_us": 2.9147434704982653,
+      "min_us": 10.958,
+      "max_us": 115.125,
+      "p95_us": 11.916,
+      "p99_us": 20.625,
+      "caurlaidspeja_mbps": 44.3522629629039
+    },
+    "atsifresana": {
+      "videjais_us": 10.465367,
+      "mediana_us": 10.166,
+      "std_us": 2.5614347543341935,
+      "min_us": 9.875,
+      "max_us": 102.5,
+      "p95_us": 10.833,
+      "p99_us": 19.041,
+      "caurlaidspeja_mbps": 48.92327235155729
+    },
+    "izmera_palielinajums": 1.25
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "256 B",
+    "datu_izmers_baiti": 256,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 1.7417451,
+      "mediana_us": 1.708,
+      "std_us": 0.7284279301694404,
+      "min_us": 1.583,
+      "max_us": 27.083,
+      "p95_us": 1.833,
+      "p99_us": 2.0,
+      "caurlaidspeja_mbps": 1175.8322156324712
+    },
+    "atsifresana": {
+      "videjais_us": 0.8541972,
+      "mediana_us": 0.833,
+      "std_us": 0.5003517173911464,
+      "min_us": 0.708,
+      "max_us": 32.75,
+      "p95_us": 0.916,
+      "p99_us": 1.0,
+      "caurlaidspeja_mbps": 2397.5728321282254
+    },
+    "izmera_palielinajums": 1.109375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "256 B",
+    "datu_izmers_baiti": 256,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 1.7633826,
+      "mediana_us": 1.708,
+      "std_us": 0.6712953510654429,
+      "min_us": 1.625,
+      "max_us": 31.917,
+      "p95_us": 1.833,
+      "p99_us": 2.0,
+      "caurlaidspeja_mbps": 1161.4042239046707
+    },
+    "atsifresana": {
+      "videjais_us": 0.8683986,
+      "mediana_us": 0.834,
+      "std_us": 0.4505448199474922,
+      "min_us": 0.75,
+      "max_us": 39.5,
+      "p95_us": 0.917,
+      "p99_us": 1.0,
+      "caurlaidspeja_mbps": 2358.364004732389
+    },
+    "izmera_palielinajums": 1.109375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "256 B",
+    "datu_izmers_baiti": 256,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 2.1504784,
+      "mediana_us": 2.084,
+      "std_us": 0.6545418818081422,
+      "min_us": 1.875,
+      "max_us": 51.208,
+      "p95_us": 2.208,
+      "p99_us": 4.375,
+      "caurlaidspeja_mbps": 952.3462314245985
+    },
+    "atsifresana": {
+      "videjais_us": 1.2572518,
+      "mediana_us": 1.25,
+      "std_us": 0.32389101799203013,
+      "min_us": 1.125,
+      "max_us": 26.583,
+      "p95_us": 1.333,
+      "p99_us": 1.375,
+      "caurlaidspeja_mbps": 1628.9497457868029
+    },
+    "izmera_palielinajums": 1.109375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "256 B",
+    "datu_izmers_baiti": 256,
+    "iteracijas": 10000,
+    "sifresana": {
+      "videjais_us": 22.1268383,
+      "mediana_us": 21.583,
+      "std_us": 2.8064143204250684,
+      "min_us": 21.291,
+      "max_us": 112.458,
+      "p95_us": 23.375,
+      "p99_us": 34.625,
+      "caurlaidspeja_mbps": 92.55728144404615
+    },
+    "atsifresana": {
+      "videjais_us": 20.9977506,
+      "mediana_us": 20.5,
+      "std_us": 3.0247062278469485,
+      "min_us": 20.125,
+      "max_us": 119.584,
+      "p95_us": 22.166,
+      "p99_us": 32.583,
+      "caurlaidspeja_mbps": 97.5342568360632
+    },
+    "izmera_palielinajums": 1.0625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "1 KB",
+    "datu_izmers_baiti": 1024,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 1.8554534,
+      "mediana_us": 1.834,
+      "std_us": 0.19179833979748057,
+      "min_us": 1.75,
+      "max_us": 13.375,
+      "p95_us": 1.917,
+      "p99_us": 2.0,
+      "caurlaidspeja_mbps": 4415.0933674755715
+    },
+    "atsifresana": {
+      "videjais_us": 0.987893,
+      "mediana_us": 0.959,
+      "std_us": 0.21765097642902526,
+      "min_us": 0.875,
+      "max_us": 9.333,
+      "p95_us": 1.042,
+      "p99_us": 1.084,
+      "caurlaidspeja_mbps": 8292.396038842264
+    },
+    "izmera_palielinajums": 1.02734375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "1 KB",
+    "datu_izmers_baiti": 1024,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 1.8967054,
+      "mediana_us": 1.875,
+      "std_us": 0.29203430315235834,
+      "min_us": 1.791,
+      "max_us": 19.167,
+      "p95_us": 1.959,
+      "p99_us": 2.125,
+      "caurlaidspeja_mbps": 4319.068211647418
+    },
+    "atsifresana": {
+      "videjais_us": 1.012424,
+      "mediana_us": 1.0,
+      "std_us": 0.11820237977518432,
+      "min_us": 0.917,
+      "max_us": 8.667,
+      "p95_us": 1.042,
+      "p99_us": 1.125,
+      "caurlaidspeja_mbps": 8091.471557371221
+    },
+    "izmera_palielinajums": 1.02734375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "1 KB",
+    "datu_izmers_baiti": 1024,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 2.6214658,
+      "mediana_us": 2.542,
+      "std_us": 1.006305599419105,
+      "min_us": 2.416,
+      "max_us": 48.792,
+      "p95_us": 2.791,
+      "p99_us": 3.0,
+      "caurlaidspeja_mbps": 3124.969244305991
+    },
+    "atsifresana": {
+      "videjais_us": 1.6879216,
+      "mediana_us": 1.666,
+      "std_us": 0.4670981519875218,
+      "min_us": 1.541,
+      "max_us": 19.459,
+      "p95_us": 1.792,
+      "p99_us": 1.958,
+      "caurlaidspeja_mbps": 4853.305982931909
+    },
+    "izmera_palielinajums": 1.02734375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "1 KB",
+    "datu_izmers_baiti": 1024,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 64.01088060000001,
+      "mediana_us": 63.292,
+      "std_us": 3.719641982024416,
+      "min_us": 62.667,
+      "max_us": 159.042,
+      "p95_us": 66.5,
+      "p99_us": 80.417,
+      "caurlaidspeja_mbps": 127.97824249897916
+    },
+    "atsifresana": {
+      "videjais_us": 62.6803784,
+      "mediana_us": 61.834,
+      "std_us": 3.2915185990285685,
+      "min_us": 61.167,
+      "max_us": 149.042,
+      "p95_us": 66.25,
+      "p99_us": 79.209,
+      "caurlaidspeja_mbps": 130.69480767525167
+    },
+    "izmera_palielinajums": 1.015625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "4 KB",
+    "datu_izmers_baiti": 4096,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 2.3457938,
+      "mediana_us": 2.292,
+      "std_us": 0.7573520151795592,
+      "min_us": 2.208,
+      "max_us": 27.666,
+      "p95_us": 2.417,
+      "p99_us": 2.667,
+      "caurlaidspeja_mbps": 13968.832213641283
+    },
+    "atsifresana": {
+      "videjais_us": 1.4314062,
+      "mediana_us": 1.417,
+      "std_us": 0.2917181768428222,
+      "min_us": 1.291,
+      "max_us": 14.834,
+      "p95_us": 1.5,
+      "p99_us": 1.625,
+      "caurlaidspeja_mbps": 22892.17414316076
+    },
+    "izmera_palielinajums": 1.0068359375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "4 KB",
+    "datu_izmers_baiti": 4096,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 2.4439616,
+      "mediana_us": 2.375,
+      "std_us": 0.7599073967107802,
+      "min_us": 2.291,
+      "max_us": 30.458,
+      "p95_us": 2.541,
+      "p99_us": 2.833,
+      "caurlaidspeja_mbps": 13407.739303268922
+    },
+    "atsifresana": {
+      "videjais_us": 1.5885748,
+      "mediana_us": 1.5,
+      "std_us": 0.983262004167113,
+      "min_us": 1.375,
+      "max_us": 43.292,
+      "p95_us": 1.625,
+      "p99_us": 4.167,
+      "caurlaidspeja_mbps": 20627.294352145076
+    },
+    "izmera_palielinajums": 1.0068359375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "4 KB",
+    "datu_izmers_baiti": 4096,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 4.3177018,
+      "mediana_us": 4.25,
+      "std_us": 0.6404753486366218,
+      "min_us": 4.166,
+      "max_us": 33.0,
+      "p95_us": 4.458,
+      "p99_us": 4.791,
+      "caurlaidspeja_mbps": 7589.222581327872
+    },
+    "atsifresana": {
+      "videjais_us": 3.4538026,
+      "mediana_us": 3.375,
+      "std_us": 0.6896592590634613,
+      "min_us": 3.25,
+      "max_us": 34.917,
+      "p95_us": 3.541,
+      "p99_us": 5.833,
+      "caurlaidspeja_mbps": 9487.513849228095
+    },
+    "izmera_palielinajums": 1.0068359375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "4 KB",
+    "datu_izmers_baiti": 4096,
+    "iteracijas": 5000,
+    "sifresana": {
+      "videjais_us": 233.1675838,
+      "mediana_us": 228.875,
+      "std_us": 12.373324435174776,
+      "min_us": 226.166,
+      "max_us": 383.042,
+      "p95_us": 252.541,
+      "p99_us": 290.916,
+      "caurlaidspeja_mbps": 140.5341148455131
+    },
+    "atsifresana": {
+      "videjais_us": 230.976208,
+      "mediana_us": 226.833,
+      "std_us": 11.666838284481672,
+      "min_us": 223.542,
+      "max_us": 361.834,
+      "p95_us": 249.791,
+      "p99_us": 283.25,
+      "caurlaidspeja_mbps": 141.86742558350426
+    },
+    "izmera_palielinajums": 1.00390625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "16 KB",
+    "datu_izmers_baiti": 16384,
+    "iteracijas": 2000,
+    "sifresana": {
+      "videjais_us": 4.281381,
+      "mediana_us": 4.166,
+      "std_us": 1.5108910068751908,
+      "min_us": 4.0,
+      "max_us": 44.792,
+      "p95_us": 4.375,
+      "p99_us": 6.417,
+      "caurlaidspeja_mbps": 30614.42090764639
+    },
+    "atsifresana": {
+      "videjais_us": 3.4835295,
+      "mediana_us": 3.375,
+      "std_us": 0.8793089492572402,
+      "min_us": 3.208,
+      "max_us": 24.459,
+      "p95_us": 3.709,
+      "p99_us": 6.084,
+      "caurlaidspeja_mbps": 37626.20640933283
+    },
+    "izmera_palielinajums": 1.001708984375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "16 KB",
+    "datu_izmers_baiti": 16384,
+    "iteracijas": 2000,
+    "sifresana": {
+      "videjais_us": 4.6405875,
+      "mediana_us": 4.5,
+      "std_us": 1.1805978243903499,
+      "min_us": 4.375,
+      "max_us": 29.042,
+      "p95_us": 4.709,
+      "p99_us": 7.125,
+      "caurlaidspeja_mbps": 28244.699620468316
+    },
+    "atsifresana": {
+      "videjais_us": 3.862866,
+      "mediana_us": 3.75,
+      "std_us": 1.071661354660854,
+      "min_us": 3.583,
+      "max_us": 30.458,
+      "p95_us": 3.958,
+      "p99_us": 6.416,
+      "caurlaidspeja_mbps": 33931.28314572652
+    },
+    "izmera_palielinajums": 1.001708984375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "16 KB",
+    "datu_izmers_baiti": 16384,
+    "iteracijas": 2000,
+    "sifresana": {
+      "videjais_us": 11.420214,
+      "mediana_us": 11.292,
+      "std_us": 1.2019264261055604,
+      "min_us": 11.166,
+      "max_us": 33.875,
+      "p95_us": 11.625,
+      "p99_us": 12.291,
+      "caurlaidspeja_mbps": 11477.192984299594
+    },
+    "atsifresana": {
+      "videjais_us": 10.5483205,
+      "mediana_us": 10.458,
+      "std_us": 0.9329091223130994,
+      "min_us": 10.291,
+      "max_us": 28.5,
+      "p95_us": 10.625,
+      "p99_us": 11.916,
+      "caurlaidspeja_mbps": 12425.8643828655
+    },
+    "izmera_palielinajums": 1.001708984375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "16 KB",
+    "datu_izmers_baiti": 16384,
+    "iteracijas": 2000,
+    "sifresana": {
+      "videjais_us": 929.1181185,
+      "mediana_us": 897.063,
+      "std_us": 237.5055347215642,
+      "min_us": 880.042,
+      "max_us": 7468.875,
+      "p95_us": 1003.125,
+      "p99_us": 1283.875,
+      "caurlaidspeja_mbps": 141.071406735246
+    },
+    "atsifresana": {
+      "videjais_us": 949.493405,
+      "mediana_us": 894.9165,
+      "std_us": 809.1103154271451,
+      "min_us": 875.291,
+      "max_us": 33650.333,
+      "p95_us": 998.292,
+      "p99_us": 1354.667,
+      "caurlaidspeja_mbps": 138.0441394429696
+    },
+    "izmera_palielinajums": 1.0009765625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "64 KB",
+    "datu_izmers_baiti": 65536,
+    "iteracijas": 1000,
+    "sifresana": {
+      "videjais_us": 11.488833,
+      "mediana_us": 11.291,
+      "std_us": 2.1243687164789815,
+      "min_us": 11.125,
+      "max_us": 70.5,
+      "p95_us": 11.708,
+      "p99_us": 17.5,
+      "caurlaidspeja_mbps": 45634.57402505546
+    },
+    "atsifresana": {
+      "videjais_us": 11.305223,
+      "mediana_us": 10.667,
+      "std_us": 3.6611651986605143,
+      "min_us": 10.375,
+      "max_us": 108.875,
+      "p95_us": 12.541,
+      "p99_us": 18.417,
+      "caurlaidspeja_mbps": 46375.73270337083
+    },
+    "izmera_palielinajums": 1.00042724609375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "64 KB",
+    "datu_izmers_baiti": 65536,
+    "iteracijas": 1000,
+    "sifresana": {
+      "videjais_us": 13.110251,
+      "mediana_us": 12.792,
+      "std_us": 2.617989361761674,
+      "min_us": 12.5,
+      "max_us": 69.542,
+      "p95_us": 13.625,
+      "p99_us": 20.834,
+      "caurlaidspeja_mbps": 39990.69125373725
+    },
+    "atsifresana": {
+      "videjais_us": 12.462176,
+      "mediana_us": 12.125,
+      "std_us": 2.117652886752872,
+      "min_us": 11.75,
+      "max_us": 59.375,
+      "p95_us": 13.958,
+      "p99_us": 15.542,
+      "caurlaidspeja_mbps": 42070.34148771451
+    },
+    "izmera_palielinajums": 1.00042724609375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "64 KB",
+    "datu_izmers_baiti": 65536,
+    "iteracijas": 1000,
+    "sifresana": {
+      "videjais_us": 39.592034,
+      "mediana_us": 38.917,
+      "std_us": 3.9571463435192826,
+      "min_us": 38.75,
+      "max_us": 116.75,
+      "p95_us": 41.791,
+      "p99_us": 53.166,
+      "caurlaidspeja_mbps": 13242.25979397775
+    },
+    "atsifresana": {
+      "videjais_us": 39.391331,
+      "mediana_us": 38.792,
+      "std_us": 2.5481411072665385,
+      "min_us": 38.417,
+      "max_us": 70.542,
+      "p95_us": 41.625,
+      "p99_us": 53.667,
+      "caurlaidspeja_mbps": 13309.730508979246
+    },
+    "izmera_palielinajums": 1.00042724609375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "64 KB",
+    "datu_izmers_baiti": 65536,
+    "iteracijas": 1000,
+    "sifresana": {
+      "videjais_us": 3591.441049,
+      "mediana_us": 3539.2295,
+      "std_us": 742.5254421460619,
+      "min_us": 3496.334,
+      "max_us": 26763.584,
+      "p95_us": 3697.375,
+      "p99_us": 3797.167,
+      "caurlaidspeja_mbps": 145.98262726489207
+    },
+    "atsifresana": {
+      "videjais_us": 3568.719896,
+      "mediana_us": 3541.9165000000003,
+      "std_us": 84.11687356731659,
+      "min_us": 3484.208,
+      "max_us": 5033.959,
+      "p95_us": 3715.917,
+      "p99_us": 3814.958,
+      "caurlaidspeja_mbps": 146.91206238619296
+    },
+    "izmera_palielinajums": 1.000244140625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "256 KB",
+    "datu_izmers_baiti": 262144,
+    "iteracijas": 500,
+    "sifresana": {
+      "videjais_us": 39.894252,
+      "mediana_us": 38.875,
+      "std_us": 5.721021021071596,
+      "min_us": 37.208,
+      "max_us": 109.459,
+      "p95_us": 44.458,
+      "p99_us": 69.875,
+      "caurlaidspeja_mbps": 52567.77342259732
+    },
+    "atsifresana": {
+      "videjais_us": 37.868144,
+      "mediana_us": 36.7705,
+      "std_us": 5.801813357540508,
+      "min_us": 35.917,
+      "max_us": 121.083,
+      "p95_us": 44.25,
+      "p99_us": 69.667,
+      "caurlaidspeja_mbps": 55380.37459665306
+    },
+    "izmera_palielinajums": 1.0001068115234375
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "256 KB",
+    "datu_izmers_baiti": 262144,
+    "iteracijas": 500,
+    "sifresana": {
+      "videjais_us": 46.213912,
+      "mediana_us": 44.8335,
+      "std_us": 6.101900325917399,
+      "min_us": 43.333,
+      "max_us": 112.0,
+      "p95_us": 54.292,
+      "p99_us": 76.375,
+      "caurlaidspeja_mbps": 45379.23558602873
+    },
+    "atsifresana": {
+      "videjais_us": 44.078492,
+      "mediana_us": 42.5205,
+      "std_us": 10.392474532456237,
+      "min_us": 41.75,
+      "max_us": 244.833,
+      "p95_us": 51.042,
+      "p99_us": 79.542,
+      "caurlaidspeja_mbps": 47577.67121434191
+    },
+    "izmera_palielinajums": 1.0001068115234375
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "256 KB",
+    "datu_izmers_baiti": 262144,
+    "iteracijas": 500,
+    "sifresana": {
+      "videjais_us": 184.555162,
+      "mediana_us": 150.917,
+      "std_us": 506.3505639351957,
+      "min_us": 149.875,
+      "max_us": 10764.042,
+      "p95_us": 173.833,
+      "p99_us": 232.542,
+      "caurlaidspeja_mbps": 11363.280101588272
+    },
+    "atsifresana": {
+      "videjais_us": 170.949408,
+      "mediana_us": 149.0,
+      "std_us": 269.6134742004383,
+      "min_us": 148.042,
+      "max_us": 5628.875,
+      "p95_us": 183.083,
+      "p99_us": 313.375,
+      "caurlaidspeja_mbps": 12267.676294029634
+    },
+    "izmera_palielinajums": 1.0001068115234375
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "256 KB",
+    "datu_izmers_baiti": 262144,
+    "iteracijas": 500,
+    "sifresana": {
+      "videjais_us": 14130.409952,
+      "mediana_us": 14072.7705,
+      "std_us": 231.451168799293,
+      "min_us": 13944.959,
+      "max_us": 18217.375,
+      "p95_us": 14408.334,
+      "p99_us": 14606.375,
+      "caurlaidspeja_mbps": 148.4140946457942
+    },
+    "atsifresana": {
+      "videjais_us": 14155.827238,
+      "mediana_us": 14081.7295,
+      "std_us": 674.6684008858167,
+      "min_us": 13933.125,
+      "max_us": 28846.792,
+      "p95_us": 14427.542,
+      "p99_us": 14624.458,
+      "caurlaidspeja_mbps": 148.14761191563505
+    },
+    "izmera_palielinajums": 1.00006103515625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "1 MB",
+    "datu_izmers_baiti": 1048576,
+    "iteracijas": 200,
+    "sifresana": {
+      "videjais_us": 154.938375,
+      "mediana_us": 145.542,
+      "std_us": 18.475082510865587,
+      "min_us": 142.625,
+      "max_us": 232.125,
+      "p95_us": 190.667,
+      "p99_us": 209.75,
+      "caurlaidspeja_mbps": 54141.57725611877
+    },
+    "atsifresana": {
+      "videjais_us": 143.312155,
+      "mediana_us": 141.292,
+      "std_us": 8.945630908029262,
+      "min_us": 140.75,
+      "max_us": 229.0,
+      "p95_us": 149.541,
+      "p99_us": 202.958,
+      "caurlaidspeja_mbps": 58533.82080536016
+    },
+    "izmera_palielinajums": 1.0000267028808594
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "1 MB",
+    "datu_izmers_baiti": 1048576,
+    "iteracijas": 200,
+    "sifresana": {
+      "videjais_us": 189.28064,
+      "mediana_us": 168.333,
+      "std_us": 34.42842876645746,
+      "min_us": 166.834,
+      "max_us": 369.084,
+      "p95_us": 250.417,
+      "p99_us": 278.833,
+      "caurlaidspeja_mbps": 44318.36240621333
+    },
+    "atsifresana": {
+      "videjais_us": 174.64674,
+      "mediana_us": 164.3545,
+      "std_us": 33.542407263605696,
+      "min_us": 163.625,
+      "max_us": 380.333,
+      "p95_us": 227.083,
+      "p99_us": 369.75,
+      "caurlaidspeja_mbps": 48031.86134479235
+    },
+    "izmera_palielinajums": 1.0000267028808594
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "1 MB",
+    "datu_izmers_baiti": 1048576,
+    "iteracijas": 200,
+    "sifresana": {
+      "videjais_us": 611.343735,
+      "mediana_us": 596.813,
+      "std_us": 28.28153244081337,
+      "min_us": 590.25,
+      "max_us": 698.584,
+      "p95_us": 664.291,
+      "p99_us": 675.292,
+      "caurlaidspeja_mbps": 13721.589867932482
+    },
+    "atsifresana": {
+      "videjais_us": 591.85193,
+      "mediana_us": 589.084,
+      "std_us": 8.742155688703308,
+      "min_us": 588.625,
+      "max_us": 698.458,
+      "p95_us": 602.208,
+      "p99_us": 620.625,
+      "caurlaidspeja_mbps": 14173.490994614143
+    },
+    "izmera_palielinajums": 1.0000267028808594
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "1 MB",
+    "datu_izmers_baiti": 1048576,
+    "iteracijas": 200,
+    "sifresana": {
+      "videjais_us": 58097.908985,
+      "mediana_us": 57898.229,
+      "std_us": 1968.5071775411998,
+      "min_us": 56050.666,
+      "max_us": 78739.5,
+      "p95_us": 59616.584,
+      "p99_us": 70243.25,
+      "caurlaidspeja_mbps": 144.38743401532423
+    },
+    "atsifresana": {
+      "videjais_us": 57981.70164,
+      "mediana_us": 57937.2915,
+      "std_us": 990.126278045483,
+      "min_us": 56107.792,
+      "max_us": 65507.458,
+      "p95_us": 59748.083,
+      "p99_us": 61361.25,
+      "caurlaidspeja_mbps": 144.67681635291862
+    },
+    "izmera_palielinajums": 1.0000152587890625
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "4 MB",
+    "datu_izmers_baiti": 4194304,
+    "iteracijas": 50,
+    "sifresana": {
+      "videjais_us": 1279.00336,
+      "mediana_us": 1291.792,
+      "std_us": 170.49544285725716,
+      "min_us": 1066.917,
+      "max_us": 2134.667,
+      "p95_us": 1430.042,
+      "p99_us": 2134.667,
+      "caurlaidspeja_mbps": 26234.827092244697
+    },
+    "atsifresana": {
+      "videjais_us": 1304.66162,
+      "mediana_us": 1288.9585,
+      "std_us": 163.8332855126609,
+      "min_us": 1015.917,
+      "max_us": 1908.375,
+      "p95_us": 1586.042,
+      "p99_us": 1908.375,
+      "caurlaidspeja_mbps": 25718.87720587657
+    },
+    "izmera_palielinajums": 1.0000066757202148
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "4 MB",
+    "datu_izmers_baiti": 4194304,
+    "iteracijas": 50,
+    "sifresana": {
+      "videjais_us": 1446.49586,
+      "mediana_us": 1448.9165,
+      "std_us": 95.41709394473062,
+      "min_us": 1207.083,
+      "max_us": 1683.417,
+      "p95_us": 1644.709,
+      "p99_us": 1683.417,
+      "caurlaidspeja_mbps": 23197.046689093186
+    },
+    "atsifresana": {
+      "videjais_us": 1403.36754,
+      "mediana_us": 1362.8545,
+      "std_us": 181.62466611851386,
+      "min_us": 1177.917,
+      "max_us": 2152.083,
+      "p95_us": 1723.542,
+      "p99_us": 2152.083,
+      "caurlaidspeja_mbps": 23909.93880334442
+    },
+    "izmera_palielinajums": 1.0000066757202148
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "4 MB",
+    "datu_izmers_baiti": 4194304,
+    "iteracijas": 50,
+    "sifresana": {
+      "videjais_us": 3293.42414,
+      "mediana_us": 3227.3334999999997,
+      "std_us": 345.3265136022635,
+      "min_us": 2921.5,
+      "max_us": 4732.0,
+      "p95_us": 4218.5,
+      "p99_us": 4732.0,
+      "caurlaidspeja_mbps": 10188.311791508275
+    },
+    "atsifresana": {
+      "videjais_us": 3230.2259,
+      "mediana_us": 3203.959,
+      "std_us": 210.20480849480288,
+      "min_us": 2948.708,
+      "max_us": 4271.042,
+      "p95_us": 3559.708,
+      "p99_us": 4271.042,
+      "caurlaidspeja_mbps": 10387.642548466967
+    },
+    "izmera_palielinajums": 1.0000066757202148
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "4 MB",
+    "datu_izmers_baiti": 4194304,
+    "iteracijas": 50,
+    "sifresana": {
+      "videjais_us": 232952.28,
+      "mediana_us": 232401.16700000002,
+      "std_us": 1671.0033475245837,
+      "min_us": 230525.5,
+      "max_us": 238987.541,
+      "p95_us": 237257.083,
+      "p99_us": 238987.541,
+      "caurlaidspeja_mbps": 144.03993813668617
+    },
+    "atsifresana": {
+      "videjais_us": 233166.53916000001,
+      "mediana_us": 232983.2085,
+      "std_us": 1178.0951284596624,
+      "min_us": 231183.125,
+      "max_us": 236893.583,
+      "p95_us": 235673.75,
+      "p99_us": 236893.583,
+      "caurlaidspeja_mbps": 143.90757833813706
+    },
+    "izmera_palielinajums": 1.0000038146972656
+  },
+  {
+    "algoritms": "AES-128-GCM",
+    "datu_izmers": "16 MB",
+    "datu_izmers_baiti": 16777216,
+    "iteracijas": 20,
+    "sifresana": {
+      "videjais_us": 5075.15635,
+      "mediana_us": 4951.4995,
+      "std_us": 556.2921117142528,
+      "min_us": 4195.959,
+      "max_us": 6555.542,
+      "p95_us": 6555.542,
+      "p99_us": 6555.542,
+      "caurlaidspeja_mbps": 26446.02820955457
+    },
+    "atsifresana": {
+      "videjais_us": 4787.75625,
+      "mediana_us": 4686.0205000000005,
+      "std_us": 656.3165491497845,
+      "min_us": 4006.625,
+      "max_us": 6368.208,
+      "p95_us": 6368.208,
+      "p99_us": 6368.208,
+      "caurlaidspeja_mbps": 28033.53407976858
+    },
+    "izmera_palielinajums": 1.0000016689300537
+  },
+  {
+    "algoritms": "AES-256-GCM",
+    "datu_izmers": "16 MB",
+    "datu_izmers_baiti": 16777216,
+    "iteracijas": 20,
+    "sifresana": {
+      "videjais_us": 5406.1645,
+      "mediana_us": 5426.853999999999,
+      "std_us": 173.4839179024658,
+      "min_us": 5104.917,
+      "max_us": 5692.791,
+      "p95_us": 5692.791,
+      "p99_us": 5692.791,
+      "caurlaidspeja_mbps": 24826.793191365156
+    },
+    "atsifresana": {
+      "videjais_us": 4721.9187,
+      "mediana_us": 4725.1455,
+      "std_us": 186.36982492941567,
+      "min_us": 4356.166,
+      "max_us": 5034.834,
+      "p95_us": 5034.834,
+      "p99_us": 5034.834,
+      "caurlaidspeja_mbps": 28424.404681088643
+    },
+    "izmera_palielinajums": 1.0000016689300537
+  },
+  {
+    "algoritms": "ChaCha20-Poly1305",
+    "datu_izmers": "16 MB",
+    "datu_izmers_baiti": 16777216,
+    "iteracijas": 20,
+    "sifresana": {
+      "videjais_us": 12254.054,
+      "mediana_us": 12225.8335,
+      "std_us": 279.1396068991097,
+      "min_us": 11448.042,
+      "max_us": 12717.125,
+      "p95_us": 12717.125,
+      "p99_us": 12717.125,
+      "caurlaidspeja_mbps": 10952.924477075096
+    },
+    "atsifresana": {
+      "videjais_us": 11707.673,
+      "mediana_us": 11647.0,
+      "std_us": 187.86341713231874,
+      "min_us": 11498.834,
+      "max_us": 12266.583,
+      "p95_us": 12266.583,
+      "p99_us": 12266.583,
+      "caurlaidspeja_mbps": 11464.082401344827
+    },
+    "izmera_palielinajums": 1.0000016689300537
+  },
+  {
+    "algoritms": "3DES-CBC",
+    "datu_izmers": "16 MB",
+    "datu_izmers_baiti": 16777216,
+    "iteracijas": 20,
+    "sifresana": {
+      "videjais_us": 915768.69575,
+      "mediana_us": 913354.9585,
+      "std_us": 12384.591623309732,
+      "min_us": 903039.709,
+      "max_us": 958031.583,
+      "p95_us": 958031.583,
+      "p99_us": 958031.583,
+      "caurlaidspeja_mbps": 146.56291334579615
+    },
+    "atsifresana": {
+      "videjais_us": 916015.4062,
+      "mediana_us": 916741.6869999999,
+      "std_us": 6886.456130078681,
+      "min_us": 900919.708,
+      "max_us": 929135.75,
+      "p95_us": 929135.75,
+      "p99_us": 929135.75,
+      "caurlaidspeja_mbps": 146.52343955304102
+    },
+    "izmera_palielinajums": 1.0000009536743164
+  }
+]
